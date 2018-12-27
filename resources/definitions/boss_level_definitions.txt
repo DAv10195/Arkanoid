@@ -1,0 +1,81 @@
+
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Lod
+ball_velocities:80,420
+background:image(background_images/lod.jpg)
+paddle_speed:650
+paddle_width:120
+block_definitions:definitions/lod_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-
+-lllllllllllll--
+-zzzzzzzzzzzzz--
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Complicated pattern
+
+START_LEVEL
+level_name:Biggie
+ball_velocities:135,420 45,420
+background:image(background_images/biggie.jpg)
+paddle_speed:500
+paddle_width:300
+block_definitions:definitions/biggie_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:22
+START_BLOCKS
+-
+-
+-
+-
+----r
+---rr
+--rrrrr
+-rrrrrr
+--rrrrr
+---rr
+----r
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name:Putin
+ball_velocities:130,420 100,420 70,420
+background:image(background_images/putin.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/putin_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:90
+START_BLOCKS
+-
+-
+wwwwwwwwwwwwwww
+wwwwwwwwwwwwwww
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+rrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrr
+
+END_BLOCKS
+END_LEVEL

@@ -13,4 +13,4 @@ the same name, and using the biuoop jar and the tools provided by it.
 2. run: runs the game after compiling with the "compile" target.
 
 3. jar: generates the portable (uber - "fat") jar, which can later be moved and executed from any
-other platform that runs JVM, without the need for any other files.
+other computer that runs JVM, without the need for any other files.
